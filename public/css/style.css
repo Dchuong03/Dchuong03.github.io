@@ -1,0 +1,159 @@
+#wrapper {
+    background: rgb(228, 231, 231, .3);
+}
+
+
+/*start style header */
+
+#header {
+    background: rgb(34, 33, 33);
+    color: white;
+    padding: 50px 20px;
+}
+
+#header .logo {
+    flex: 20%;
+}
+
+
+/* start style menu and form search header */
+
+#wp_h_menu {
+    flex: 80%;
+    background-color: #333;
+    height: 50px;
+    align-items: center;
+}
+
+#h_menu {
+    top: 0px;
+    height: 100%;
+    align-items: center;
+}
+
+#h_menu li {
+    border-left: 1px solid rgba(204, 204, 204, 0.493);
+}
+
+#h_menu li a {
+    padding: 10px 25px;
+    color: aliceblue;
+}
+
+#h_menu .active {
+    color: #495057;
+    background: #ffffffa8;
+}
+
+#h_menu li:first-child {
+    border: none;
+}
+
+#h_menu li a:hover {
+    text-decoration: none;
+    color: rgb(247, 234, 118);
+}
+
+
+/* start style form search */
+
+#h_search {
+    right: 0px;
+    height: 80%;
+    background: rgba(68, 68, 68, 0.85);
+    margin-right: 30px;
+}
+
+#h_search input {
+    background: none;
+    border: none;
+    height: 100%;
+    outline-style: none;
+    padding-left: 10px;
+}
+
+#h_search input::placeholder {
+    color: rgba(204, 204, 204);
+    font-size: 14px;
+}
+
+.btn_search {
+    background: none;
+    border: none;
+    height: 100%;
+    padding-right: 25px;
+    outline-style: none;
+}
+
+.btn_search i {
+    color: rgba(240, 255, 240, 0.507);
+}
+
+
+/* end style header */
+
+#intro {
+    background: white;
+}
+
+#intro_title h2 {
+    border-left: 3px solid sandybrown;
+    padding-left: 30px;
+    line-height: 1.85rem;
+    margin: 15px 0px;
+}
+
+#forte {
+    margin-top: 40px;
+}
+
+#wp_content {
+    /* width: 960px; */
+    margin: 0 auto;
+    min-height: 600px;
+}
+
+#content {
+    border-right: 2px solid rgba(0, 0, 0, .125);
+}
+
+#content .card-header {
+    border-bottom: 0;
+}
+
+#favorite_post.card,
+#new_post.card,
+#featured_post.card {
+    border: 0px;
+    border-radius: 0;
+}
+
+#favorite_post .card-header,
+#new_post .card-header,
+#featured_post .card-header,
+#b_sidebar .card-header {
+    border-bottom: 2px solid rgba(0, 0, 0, .125);
+}
+
+#h_sidebar {
+    /* border-top: 2px solid rgba(0, 0, 0, .125); */
+    /* background: gray; */
+    background: url(../images/img-sb.png) no-repeat;
+    width: 95%;
+    height: 200px;
+    margin: 15px auto;
+}
+
+#b_sidebar.card {
+    border-radius: 0;
+}
+
+#list_topic {
+    margin-top: 10px;
+}
+
+#list_topic li {
+    /* border-top: 1px solid rgba(51, 51, 51, 0.514); */
+    border-bottom: 1px solid rgba(51, 51, 51, 0.514);
+    padding: 7px 20px;
+}

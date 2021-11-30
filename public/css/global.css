@@ -1,0 +1,48 @@
+h2 {
+    font-size: 1.5rem;
+}
+
+#forte .card {
+    border-radius: 0;
+    border-bottom: 0px;
+    border-top: 0px;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+#forte .card-img {
+    width: 30px;
+    height: auto;
+}
+
+#forte_item_1 h1::after {
+    background: url(../images/sb-blogging.png);
+}
+
+#forte_item_2 h1::after {
+    background: url(../images/sb-blogging.png);
+}
+
+#forte_item_3 h1::after {
+    background: url(../images/sb-blogging.png);
+}
+
+#forte_item_4 h1::after {
+    background: url(../images/sb-blogging.png);
+}
+
+#forte .card h1::after {
+    width: 64px;
+    height: 64px;
+    content: '';
+    display: block;
+    margin: 15px auto;
+}
+
+.card {
+    background: none;
+}
+
+a.active {
+    color: #495057;
+}
